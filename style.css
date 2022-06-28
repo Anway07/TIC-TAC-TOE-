@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kavivanar', cursive;
+}
+
+/* background styling */
+.background {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+/* Title Styling */
+.title {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 2%;
+}
+
+/* Player X's turn  */
+.display {
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.hide {
+    display: none;
+}
+
+/* Table styling */
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+/* table detailing */
+.tile {
+    border: 1px solid white;
+    min-height: 100px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #09c372;
+}
+
+.playerO {
+    color: #498afb;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.restart {
+    background-color: #498afb;
+}
+
+.copyright {
+    text-align: left;
+    font-size: x-large;
+}
